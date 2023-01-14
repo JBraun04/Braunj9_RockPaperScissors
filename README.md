@@ -2,10 +2,10 @@ Rock Paper Scissors - Group Assignment
 ===================================
 [![GitHub Classroom Workflow](https://github.com/IT3049C/3.Rock-Paper-Scissors/actions/workflows/classroom.yml/badge.svg)](https://github.com/IT3049C/3.Rock-Paper-Scissors/actions/workflows/classroom.yml)
 
-Instructions to this assignment can be found [here](https://it3049c.github.io/Material/Assignments/3.Rock_Paper_Scissors/).
+Instructions to this assignment can be found [here](https://reedws.github.io/IT3049C/coursework/assignments/rock-paper-scissors/).
 
 ## Checklist:
-- [x] update the assignment checks above to the correct link. - Done Automatically
+- [ ] update the assignment checks above to the correct link
 - [ ] All tests are passing
 - [ ] filled out the self-evaluation.
 - [ ] filled out the self-reflection.
