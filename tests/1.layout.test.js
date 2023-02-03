@@ -80,6 +80,7 @@ describe(`html content`, function () {
 
     expect(formButton).toHaveTextContent(/start game(.)+/i);
     expect(formButton).toHaveAttribute(`id`, `start-game-button`);
+    expect(formButton).toHaveAttribute(`type`, `button`);
   });
 
 
@@ -143,6 +144,7 @@ describe(`html content`, function () {
 
     expect(formButton).toHaveTextContent(/go(.)+/i);
     expect(formButton).toHaveAttribute(`id`, `go-button`);
+    expect(formButton).toHaveAttribute(`type`, `button`);
   });
 
   test(`#game-screen game history patagraph's ID is (game-history)`, function() {
