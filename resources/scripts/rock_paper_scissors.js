@@ -14,8 +14,10 @@ class RockPaperScissors {
    */
   generateCPUResponse(){
     const acceptedValues = [ `rock`, `paper`, `scissors` ];
+    const cpuChoice = Math.floor(Math.random() * 3);
 
-    return ;
+    return acceptedValues[cpuChoice];
+
   }
   /**
    * returns one of the following values: `win`, `lose`, `tie`
@@ -34,6 +36,23 @@ class RockPaperScissors {
    */
   determineWinner(userSelection, cpuSelection){
 
+    if ((userSelection === 'rock' && cpuSelection === 'scissors') || (userSelection === 'paper' && cpuSelection === 'rock') || (userSelection === 'scissors' && cpuSelection === 'paper'))
+    {
+        return 'win';
+    }
+
+    else if (userSelection === cpuSelection)
+
+    {
+        return 'tie';
+    }
+
+    else 
+
+    {
+      return 'loss';
+    }
+
   }
 
   /**
@@ -42,6 +61,21 @@ class RockPaperScissors {
    */
   play(userSelection){
 
+    const cpuSelection = this.generateCPUResponse();
+    const result = this.determineWinner(userSelection, cpuSelection)
+
+    if (result === 'win')
+    {
+      this.score.user++;
+    }
+
+    else if (result === 'loss')
+    {
+      this.score.cpu++;
+    }
+
+    let resultMsg = `${this.username} selected ${userSelection}, CPU selected ${cpuSelection}: `;
+    this.gameHistoryLog.push(resultMsg);
   }
 
 }
