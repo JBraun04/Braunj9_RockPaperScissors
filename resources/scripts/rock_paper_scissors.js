@@ -63,18 +63,20 @@ class RockPaperScissors {
 
     const cpuSelection = this.generateCPUResponse();
     const result = this.determineWinner(userSelection, cpuSelection)
+    let resultMsg = `${this.username} selected ${userSelection}, CPU selected ${cpuSelection}: `;
 
     if (result === 'win')
     {
       this.score.user++;
+      resultMsg += `${this.username} wins!`;
     }
 
     else if (result === 'loss')
     {
       this.score.cpu++;
+      resultMsg += 'CPU wins!';
     }
 
-    let resultMsg = `${this.username} selected ${userSelection}, CPU selected ${cpuSelection}: `;
     this.gameHistoryLog.push(resultMsg);
   }
 
