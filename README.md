@@ -9,14 +9,20 @@ Instructions to this assignment can be found [here](https://reedws.github.io/IT3
 ## Checklist:
 - [ ] update the assignment checks above to the correct link
 - [ ] All tests are passing
-- [ ] filled out the self-evaluation.
-- [ ] filled out the self-reflection.
+- [x] filled out the self-evaluation.
+- [x] filled out the self-reflection.
 
 ## Self-Evaluation: 
 how many points out of 20 does your team deserve on this assignment. Revise the assignment grading guideline and assignment rubrics for guidance.
 
+17/20
+
 ## Team Reflection:
 - Where did you encounter struggles today, and what did you do to deal with it?
 
+Because I am so used to java and C#, is took me a while to get used to the slight syntax differences of javascript. Writing the game controller also took some time and troubleshooting.
+
 
 ### How long it took us to finish this?
+
+5 hrs

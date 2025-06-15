@@ -50,7 +50,7 @@ class RockPaperScissors {
     else 
 
     {
-      return 'loss';
+      return 'lose';
     }
 
   }
@@ -71,7 +71,7 @@ class RockPaperScissors {
       resultMsg += `${this.username} wins!`;
     }
 
-    else if (result === 'loss')
+    else if (result === 'lose')
     {
       this.score.cpu++;
       resultMsg += 'CPU wins!';
